@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Znaczniki html</title>
+    <link rel="icon" href="./bookmark-icon/html5.png" type="icon/png" />
+</head>
+
+<body>
+  
+	<table class="tabelka" border=1>
+	  <tbody><tr>
+	    <th width="10%">Tag</th>
+	    <th width="20%">nazwa</th>
+	    <th width="40%">przykład kodu</th>
+	    <th width="30%">wygląd w przeglądarce</th>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;!-- </td>
+	    <td width="20%"> <b>komentarz</b></td>
+	    <td width="40%"> <b>&lt;!--</b>to jest komentarz, który nie będzie widoczny na stronie<b>--&gt;</b></td>
+	    <td width="30%"> niewidoczny na stronie</td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;A - </td>
+	    <td width="20%"> <b>kotwica, link</b></td>
+	    <td width="40%"> <b>&lt;A</b>
+          HREF= "http://snabel.pl" &gt;Odwiedź naszą stronę<b>&lt;/A&gt;</b></td>
+	    <td width="30%">
+	    <a href="http://snabel.pl">Odwiedź naszą stronę</a>
+	    
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;B&gt;</td>
+	    <td width="20%"> <b>bold, pogrubiony</b></td>
+	    <td width="40%"> <b>&lt;B&gt;</b>Przykład<b>&lt;/B&gt;</b></td>
+	    <td width="30%"> <b>Przykład</b></td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;BIG&gt;</td>
+	    <td width="20%"> <b>big, wielki (text)</b></td>
+	    <td width="40%"> <b>&lt;BIG&gt;</b>Przykład<b>&lt;/BIG&gt;</b></td>
+	    <td width="30%"> <big>Przykład</big></td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;BODY&gt;</td>
+	    <td width="20%"> <b>ciało dokumentu HTML</b></td>
+	    <td width="40%"> <b>&lt;BODY&gt;</b>Zawartość
+          Twojej strony<b>&lt;/BODY&gt;</b></td>
+	    <td width="30%"> Zawartość Twojej strony</td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;BR&gt; </td>
+	    <td width="20%"> <b>przejście do następnej
+          linii</b></td>
+	    <td width="40%"> Pierwsza linia tekstu<b>&lt;BR&gt;</b>druga
+          linia tekstu</td>
+	    <td width="30%"> Pierwsza linia tekstu<br>
+           druga linia tekstu</td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;CENTER&gt;</td>
+	    <td width="20%"> <b>centrowanie</b></td>
+	    <td width="40%"> <b>&lt;CENTER&gt;</b>To zostanie wycentowane<b>&lt;/CENTER&gt;</b></td>
+	    <td width="30%"><p align="Center">
+ <b></b>To zostanie wycentowane</p></td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;EM&gt;</td>
+	    <td width="20%"> <b>istotny fragment tekstu</b></td>
+	    <td width="40%"> Ten fragment <b>&lt;EM&gt;</b>zostanie wyróżniony<b>&lt;/EM&gt;</b>
+          tagiem EM</td>
+	    <td width="30%"> Ten fragment <em>zostanie wyróżniony</em> tagiem EM</td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;EMBED&gt;<br>
+	      </td>
+	    <td width="20%"> <b>osadzony obiekt</b></td>
+	    <td width="40%"> <b>&lt;EMBED</b>  src="dzwiek.mid"
+	      width="100%" height="60" align="center"&gt;</td>
+	    <td width="30%"><embed src="dzwiek.mid" autostart="false" width="128" height="128" align="middle"></td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;FONT&gt;</td>
+	    <td width="20%"> <b>czcionka</b></td>
+	    <td width="40%"> <b>&lt;FONT</b> FACE="Times New
+	      Roman" SIZE="+3"
+	      COLOR="#FF0000"&gt; Przykład<b>&lt;/FONT&gt;</b></td>
+	    <td width="30%"><font size="+3" face="Times New Roman" color="#FF0000">Przykład</font></td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;FORM&gt;</td>
+	    <td width="20%"> <b>formularz</b></td>
+	    <td width="40%"> <b>&lt;FORM</b>
+	      action= "mailto:twoja@domena.pl"&gt;<br>
+	      Name: &lt;INPUT name="Nazwa" value="" size="10"&gt;&lt;BR&gt; <br>
+	      Email: &lt;INPUT name="Email" value="" size="10"&gt;&lt;BR&gt;<br>
+	      &lt;CENTER&gt;&lt;INPUT type="submit"&gt;&lt;/CENTER&gt;<br>
+	      <b>&lt;/FORM&gt;</b></td>
+	    <td width="30%"><form action="mailto:twoja@domena.pl">
+		 Name:
+		<input name="Name" value="" size="10">
+ <br>
+		 Email:
+		<input name="Email" value="" size="10"><br>
+		<input type="submit">
+	      </form>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;H1&gt;</td>
+	    <td width="20%"> <b>nagłówek 1</b></td>
+	    <td width="40%"> <b>&lt;H1&gt;</b>Przykład
+          nagłówka 1<b>&lt;/H1&gt;</b></td>
+	    <td width="30%"><h1> <font color="#993300"> Przykład nagłówka 1</font>
+	      </h1>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;H2&gt;</td>
+	    <td width="20%"> <b>nagłówek 2</b></td>
+	    <td width="40%"> <b>&lt;H2&gt;</b>Przykład
+          nagłówka 2<b>&lt;/H2&gt;</b></td>
+	    <td width="30%"><h2> Przykład nagłówka 2
+	      </h2>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;H3&gt;</td>
+	    <td width="20%"> <b>nagłówek 3</b></td>
+	    <td width="40%"> <b>&lt;H3&gt;</b>Przykład
+          nagłówka 3<b>&lt;/H3&gt;</b></td>
+	    <td width="30%"><h3> <font color="#993300"> Przykład nagłówka 3</font>
+	      </h3>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;H4&gt;</td>
+	    <td width="20%"> <b>nagłówek 4</b></td>
+	    <td width="40%"> <b>&lt;H4&gt;</b>Przykład
+          nagłówka 4<b>&lt;/H4&gt;</b></td>
+	    <td width="30%"><h4> <font color="#993300"> Przykład nagłówka 4</font>
+	      </h4>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;H5&gt;</td>
+	    <td width="20%"> <b>nagłówek 5</b></td>
+	    <td width="40%"> <b>&lt;H5&gt;</b>Przykład
+          nagłówka 5<b>&lt;/H5&gt;</b></td>
+	    <td width="30%"><h5> <font color="#993300"> Przykład nagłówka 5</font>
+	      </h5>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;H6&gt;</td>
+	    <td width="20%"> <b>nagłówek 6</b></td>
+	    <td width="40%"> <b>&lt;H6&gt;</b>Przykład
+          nagłówka 6<b>&lt;/H6&gt;</b></td>
+	    <td width="30%"><h6> <font color="#993300"> Przykład nagłówka 6</font>
+	      </h6>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;HEAD&gt;</td>
+	    <td width="20%"> <b>Sekcja nagłówkowa dokumentu HTML</b></td>
+	    <td width="40%"> <b>&lt;HEAD&gt;</b>Zawiera elementy niewidoczne na
+          stronie: opis, tytuł słowa kluczowe itp<b>&lt;/HEAD&gt;</b></td>
+	    <td width="30%"> Nic się nie wyświetla na stronie</td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;HR&gt;</td>
+	    <td width="20%"> <b>pozioma linia</b></td>
+	    <td width="40%"> <b>&lt;HR&gt;</b></td>
+	    <td width="30%"><br>
+          tekst nad linią
+          <br>
+		<hr>
+          tekst pod linią</td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;HTML&gt;</td>
+	    <td width="20%"> <b>Sekcja definiująca stronę</b></td>
+	    <td width="40%"> <b>&lt;HTML&gt;</b>&lt;HEAD&gt;&lt;META&gt; &lt;TITLE&gt; Tytuł strony&lt;/TITLE&gt; &lt;/HEAD&gt;&lt;BODY&gt; zawartość strony&lt;/BODY&gt;<b>&lt;/HTML&gt;</b></td>
+	    <td width="30%"> Twoja strona</td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;I&gt;</td>
+	    <td width="20%"> <b>kursywa</b></td>
+	    <td width="40%"> <b>&lt;I&gt;</b>tekst pochylony<b>&lt;/I&gt;</b></td>
+	    <td width="30%"> <i>Tekst pochylony</i></td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;IMG&gt;</td>
+	    <td width="20%"> <b>obrazek</b></td>
+	    <td width="40%"> <b>&lt;IMG</b>  SRC="obrazek.gif" WIDTH="41"
+          HEIGHT="41" BORDER="0" ALT="tekst alternatyny
+          dla obrazka"&gt;</td>
+	    <td width="30%"><img alt="tekst alternatyny dla obrazka" src="hagia.jpeg" width="32" height="32" border="0">
+        </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;INPUT&gt;</td>
+	    <td width="20%"> <b>Pole edycyjne formularza</b></td>
+	    <td width="40%"> 
+	       &lt;FORM METHOD=post ACTION= "/cgi-bin/przyklad.cgi"&gt;<br>
+	      <b>&lt;INPUT</b> type="text" size="10" maxlength="30"&gt;<br>
+	      <b>&lt;INPUT</b> type="Submit" VALUE="Wyślij"&gt;<br>
+	      &lt;/FORM&gt;</td>
+	    <td width="30%"><form method="post" action="/cgi-bin/example.cgi">
+		<br>
+		<input type="text" size="10" maxlength="30">
+		<input type="Submit" value="Wyślij">
+	      </form>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;INPUT&gt;</td>
+	    <td width="20%"> <b>Pole edycyjne formularza</b></td>
+	    <td width="40%"> 
+	       &lt;FORM METHOD=post ACTION= "/cgi-bin/przyklad.cgi"&gt;<br>
+          Wprowadź komentarz:&lt;BR&gt;<br>
+	      &lt;TEXTAREA wrap="virtual" name="Comments" rows=3 cols=16
+	      MAXLENGTH=100&gt; &lt;/TEXTAREA&gt;&lt;BR&gt;<br>
+	      <b>&lt;INPUT</b> type="Submit" VALUE="Wyślij"&gt;<br>
+	      <b>&lt;INPUT</b> type="Reset" VALUE="Wyczyść"&gt;<br>
+	      &lt;/FORM&gt;</td>
+	    <td width="30%"><form method="post" action="/cgi-bin/example.cgi">
+		<br>
+		<textarea name="Comments" rows="3" cols="16" maxlength="100" wrap="virtual"></textarea><br>
+		<input type="Submit" value="Wyślij"> 
+		<input type="Reset" value="Wyczyść">
+	      </form>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;INPUT&gt;</td>
+	    <td width="20%"> <b>Pole edycyjne formularza (opcje)</b></td>
+	    <td width="40%"> &lt;FORM METHOD=post ACTION="/cgi-bin/przyklad.cgi"&gt;<br>
+	      &lt;CENTER&gt;<br>
+          Wybierz opcje:<br>
+	      &lt;SELECT&gt;<br>
+	      &lt;OPTION &gt;option 1<br>
+	      &lt;OPTION SELECTED&gt; option 2<br>
+	      &lt;OPTION&gt;option 3<br>
+	      &lt;OPTION&gt;option 4<br>
+	      &lt;OPTION&gt;option 5<br>
+	      &lt;OPTION&gt;option 6<br>
+	      &lt;/SELECT&gt;&lt;BR&gt;<br>
+	      <b>&lt;INPUT</b> type="Submit" VALUE="wyślij"&gt; &lt;/CENTER&gt;<br>
+	      &lt;/FORM&gt;</td>
+	    <td width="30%"><form method="post" action="/cgi-bin/example.cgi">
+		<center>
+          <p align="Left">
+		  <br>
+          Wybierz opcje:
+		  <select> 
+		  <option>option 1 
+		  </option><option selected="">option 2 
+		  </option><option>option 3 
+		  </option><option>option 4 
+		  </option><option>option 5 
+		  </option><option>option 6 </option></select> <br>
+		  <input type="Submit" value="wyślij">
+		</p></center>
+	      </form>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;INPUT&gt;</td>
+	    <td width="20%"> <b>Pole edycyjne formularza (opcje)</b></td>
+	    <td width="40%"> &lt;FORM METHOD=post ACTION= "/cgi-bin/example.cgi"&gt;<br>
+          Wybierz opcje:&lt;BR&gt;<br>
+	      <b>&lt;INPUT</b> type="radio" name="option"&gt; Option 1<br>
+	      <b>&lt;INPUT</b> type="radio" name="option" CHECKED&gt; Option 2<br>
+	      <b>&lt;INPUT</b> type="radio" name="option"&gt; Option 3<br>
+	      &lt;BR&gt;<br>
+	      &lt;BR&gt;<br>
+          Wybierz opcje:&lt;BR&gt;<br>
+	      <b>&lt;INPUT</b> type="checkbox" name="selection"&gt; Selection 1<br>
+	      <b>&lt;INPUT</b> type="checkbox" name="selection" CHECKED&gt;<b> </b>Selection
+	      2<br>
+	      <b>&lt;INPUT</b> type="checkbox" name="selection"&gt;<b> </b>Selection 3<br>
+	      <b>&lt;INPUT</b> type="Submit" VALUE="Wyślij"&gt;<br>
+	      &lt;/FORM&gt;</td>
+	    <td width="30%"><form method="post" action="/cgi-bin/example.cgi">
+         Wybierz opcje:<br>
+		<input type="radio" name="option"> Option 1<br>
+		<input type="radio" name="option" checked=""> Option 2<br>
+		<input type="radio" name="option"> Option 3<br>
+		<br>
+         Wybierz opcje:<br>
+		<input type="checkbox" name="selection"> Selection 1<br>
+		<input type="checkbox" name="selection" checked=""> Selection 2<br>
+		<input type="checkbox" name="selection"> Selection 3<br>
+		<input type="Submit" value="Wyślij">
+	      </form>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;LI&gt;</td>
+	    <td width="20%"> <b>pozycja z listy</b></td>
+	    <td width="40%"> przykład 1:<br>
+	      <br>
+	       &lt;MENU&gt;<br>
+	      <b>&lt;LI </b>type="disc"&gt;pozycja 1<br>
+	      <b>&lt;LI</b>  type="circle"&gt;pozycja 2<br>
+	      <b>&lt;LI</b>  type="square"&gt;pozycja 3<br>
+	      &lt;/MENU&gt;<br>
+	      <br>
+          przykład 2:<br>
+	      <br>
+	      &lt;OL type="i"&gt;<br>
+	      <b>&lt;LI&gt;</b>pozycja 1<br>
+	      <b>&lt;LI&gt;</b>pozycja 2<br>
+	      <b>&lt;LI&gt;</b>pozycja 3<br>
+	      <b>&lt;LI&gt;</b>pozycja 4<br>
+	      &lt;/OL&gt;</td>
+	    <td width="30%"> Przykład 1:
+          <br>
+	      <ul>
+		<li type="disc">
+           <b>pozycja 1</b>
+		</li><li type="circle">
+          <b>pozycja 2</b>
+		</li><li type="square">
+          <b>pozycja 3</b>
+	      </li></ul>
+	      <p>
+	      <br>
+          Przykład 2:<br>
+	      </p><ol type="i">
+		<li>
+           <b>pozycja 1</b>
+		</li><li>
+          <b>pozycja 2</b>
+		</li><li>
+          <b>pozycja 3</b>
+		</li><li>
+          <b>pozycja 4</b>
+	      </li></ol>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;LINK&gt;</td>
+	    <td width="20%"> <b>link</b></td>
+	    <td width="40%"> Odwiedź naszą <b>&lt;A HREF= </b> "http://snabel.pl" <b> 
+          &gt;stronę&lt;/A&gt;</b></td>
+	    <td width="30%"> Odwiedź naszą <a href="http://snabel.pl/">stronę</a></td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;MENU&gt;</td>
+	    <td width="20%"> <b>menu</b></td>
+	    <td width="40%"> <b>&lt;MENU&gt;</b><br>
+	      &lt;LI type="disc"&gt;pozycja 1<br>
+	      &lt;LI type="circle"&gt;pozycja 2<br>
+	      &lt;LI type="square"&gt;pozycja 3<br>
+	      <b>&lt;/MENU&gt;</b></td>
+	    <td width="30%"><ul>
+		<li type="disc">
+           pozycja 1
+		</li><li type="circle">
+           pozycja 2
+		</li><li type="square">
+           pozycja 3
+	      </li></ul>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;META&gt;</td>
+	    <td width="20%"> <b>meta</b></td>
+	    <td width="40%"> <b>&lt;META</b>  name="Description" content="Tu
+          opis Twojej strony"&gt;<br>
+	      <b>&lt;META</b>  name="keywords" content="tu, słowa,
+          kluczowe, twojej, strony"&gt;</td>
+	    <td width="30%"> to nie wyświetla się na stronie</td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;META&gt;</td>
+	    <td width="20%"> <b>meta</b></td>
+	    <td width="40%"> <b>&lt;META</b>   HTTP-EQUIV= "Refresh" CONTENT="4;URL= http://www.domena.com/"&gt;</td>
+	    <td width="30%"> to nie wyświetla się na stronie
+        </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;META&gt;</td>
+	    <td width="20%"> <b>meta</b></td>
+	    <td width="40%"> <b>&lt;META</b> http-equiv="Pragma"
+	      content="no-cache"&gt;</td>
+	    <td width="30%"> to nie wyświetla się na stronie
+        </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;META&gt;</td>
+	    <td width="20%"> <b>meta</b></td>
+	    <td width="40%"> <b>&lt;META</b> name="rating"
+	      content="General"&gt;</td>
+	    <td width="30%"> to nie wyświetla się na stronie
+        </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;META&gt;</td>
+	    <td width="20%"> <b>meta</b></td>
+	    <td width="40%"> <b>&lt;META </b>name="ROBOTS"
+	      content="ALL"&gt; </td>
+	    <td width="30%"> to nie wyświetla się na stronie
+        </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;META&gt;</td>
+	    <td width="20%"> <b>meta</b></td>
+	    <td width="40%"> <b>&lt;META</b> NAME="ROBOTS" content= "NOINDEX,FOLLOW"&gt;</td>
+	    <td width="30%"> to nie wyświetla się na stronie
+        </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;OL&gt;</td>
+	    <td width="20%"> <b>Lista</b></td>
+	    <td width="40%"> <b>Lista uporządkowana, numerowana</b><br>
+	      <br>
+	       <b>&lt;OL&gt;</b><br>
+	      &lt;LI&gt;pozycja 1<br>
+	      &lt;LI&gt;pozycja&nbsp; 2<br>
+	      &lt;LI&gt;pozycja&nbsp; 3<br>
+	      &lt;LI&gt;pozycja&nbsp; 4<br>
+	      <b>&lt;/OL&gt;</b><br>
+          <br>
+	      <br>
+          <b>Lista uporządkowana</b><p>
+	       <b>&lt;OL type="a"&gt;</b><br>
+	      &lt;LI&gt;pozycja&nbsp; 1<br>
+	      &lt;LI&gt;pozycja&nbsp; 2<br>
+	      &lt;LI&gt;pozycja&nbsp; 3<br>
+	      &lt;LI&gt;pozycja&nbsp; 4<br>
+	      <b>&lt;/OL&gt;</b>
+	      </p><p>
+	      <b><br>
+	      <br>
+          Lista uporządkowana, cyfry rzymskie</b>
+          </p><p>
+	       <b>&lt;OL type="I"&gt;</b><br>
+	      &lt;LI&gt;pozycja&nbsp; 1<br>
+	      &lt;LI&gt;pozycja&nbsp; 2<br>
+	      &lt;LI&gt;pozycja 3<br>
+	      &lt;LI&gt;pozycja&nbsp; 4<br>
+	      <b>&lt;/OL&gt;</b></p></td>
+	    <td width="30%" valign="Top"> <b>Lista uporządkowana</b><br>
+	      <ol>
+		<li>
+           pozycja&nbsp; 1
+		</li><li>
+           pozycja&nbsp; 2
+		</li><li>
+           pozycja&nbsp; 3
+		</li><li>
+           pozycja&nbsp; 4
+	      </li></ol>
+	      <p>
+           &nbsp;</p><p><b>Lista uporządkowana</b><br>
+	      </p><ol type="a">
+		<li>
+           pozycja&nbsp; 1
+		</li><li>
+           pozycja&nbsp; 2
+		</li><li>
+           pozycja&nbsp; 3
+		</li><li>
+           pozycja&nbsp; 4
+	      </li></ol>
+          <p>&nbsp;</p><p><b>Lista uporządkowana, cyfry rzymskie</b><br>
+	      </p><ol type="I">
+		<li>
+           pozycja&nbsp; 1
+		</li><li>
+           pozycja&nbsp; 2
+		</li><li>
+           pozycja&nbsp; 3
+		</li><li>
+           pozycja&nbsp; 4
+	      </li></ol>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;OPTION&gt;</td>
+	    <td width="20%"> <b>lista opcji</b></td>
+	    <td width="40%"> &lt;FORM METHOD=post ACTION= "/cgi-bin/example.cgi"&gt;<br>
+	      &lt;CENTER&gt;<br>
+          Wybierz opcję:<br>
+	      &lt;SELECT&gt;<br>
+	      <b>&lt;OPTION&gt;</b>opcja 1<br>
+	      <b>&lt;OPTION SELECTED&gt; </b>opcja 2<br>
+	      <b>&lt;OPTION&gt;</b>opcja 3<br>
+	      <b>&lt;OPTION&gt;</b>oopcja 4<br>
+	      <b>&lt;OPTION&gt;</b>opcja 5<br>
+	      <b>&lt;OPTION&gt;</b>opcja 6<br>
+	      &lt;/SELECT&gt;&lt;BR&gt;<br>
+	      &lt;/CENTER&gt;<br>
+	      &lt;/FORM&gt;</td>
+	    <td width="30%"><form method="post" action="/cgi-bin/example.cgi">
+        <center>Wybierz opcję:
+        <br>
+		  <select> 
+		  <option>option 1 
+		  </option><option selected="">option 2 
+		  </option><option>option 3 
+		  </option><option>option 4 
+		  </option><option>option 5 
+		  </option><option>option 6 </option></select><br>
+		</center>
+	      </form>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;P&gt;</td>
+	    <td width="20%"> <b>akapit</b></td>
+	    <td width="40%"> Przykład 1:&lt;BR&gt;<br>
+	      &lt;BR&gt;<br>
+	      <b>&lt;P align="left"&gt;</b><br>
+          To jest przykład&lt;BR&gt;<br>
+          zastosowania znacznika &lt;BR&gt;<br>
+          początku akapitu.&lt;BR&gt;<br>
+	      &lt;BR&gt;<br>
+          Przykład 2:&lt;BR&gt;<br>
+	      &lt;BR&gt;<br>
+	      <b>&lt;P align="right"&gt;</b><br>
+          To jest przykład&lt;BR&gt;<br>
+          zastosowania znacznika &lt;BR&gt;<br>
+          początku akapitu.&lt;BR&gt;<br>
+	      &lt;BR&gt;<br>
+          Przykład 3:&lt;BR&gt;<br>
+	      &lt;BR&gt;<br>
+	      <b>&lt;P align="center"&gt;</b><br>
+          To jest przykład&lt;BR&gt;<br>
+          zastosowania znacznika &lt;BR&gt;<br>
+          początku akapitu.</td>
+	    <td width="30%"><p align="left">
+           Przykład 1: <br>
+	      <br>
+           To jest przykład<br>
+           zastosowania znacznika<br>
+           początku akapitu.<br>
+          </p><p align="right">Przykład 2:<br>
+	      <br>
+          To jest przykład<br>
+          zastosowania znacznika<br>
+          początku akapitu.<br>
+	      </p><p align="center">
+           Przykład 3: <br>
+	      <br>
+           To jest przykład<br>
+           zastosowania znacznika<br>
+           początku akapitu.</p></td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;SMALL&gt;</td>
+	    <td width="20%"> <b>mniejszy rozmiar tekstu</b></td>
+	    <td width="40%"> <b>&lt;SMALL&gt; </b>Przykład<b>&lt;/SMALL&gt;</b></td>
+	    <td width="30%"> <small>Przykład</small>
+        </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;STRONG&gt;</td>
+	    <td width="20%"> <b>większy rozmiar&nbsp; tekstu</b></td>
+	    <td width="40%"> <b>&lt;STRONG&gt; </b>Przykład<b>&lt;/STRONG&gt;</b></td>
+	    <td width="30%"> <strong>Przykład</strong></td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;TABLE&gt;</td>
+	    <td width="20%"> <b>tabela</b></td>
+	    <td width="40%"> Przykład 1:<br>
+	      <br>
+	       <b>&lt;TABLE</b> BORDER="4"
+	      CELLPADDING="2" &nbsp;CELLSPACING="2" WIDTH="100%"&gt;<br>
+	      &lt;TR&gt;<br>
+	      &lt;TD&gt;kolumna 1&lt;/TD&gt;<br>
+	      &lt;TD&gt;kolumna 2&lt;/TD&gt;<br>
+	      &lt;/TR&gt;<br>
+	      <b>&lt;/TABLE&gt;</b><br>
+	      <br>
+          <br>
+	      <br>
+          Przykład 2:<br>
+	      <br>
+	      <b>&lt;TABLE</b> CELLPADDING="2" CELLSPACING="2" WIDTH="100%"&gt;<br>
+	      &lt;TR&gt;<br>
+	      &lt;TD
+	      BGCOLOR="#CCCCCC"&gt;&nbsp; kolumna 1&lt;/TD&gt;<br>
+	      &lt;TD
+	      BGCOLOR="#CCCCCC"&gt; kolumna 2&lt;/TD&gt;<br>
+	      &lt;/TR&gt;<br>
+	      &lt;TR&gt;<br>
+	      &lt;TD&gt;komórka 1&lt;/TD&gt;<br>
+	      &lt;TD&gt;komórka2&lt;/TD&gt;<br>
+	      &lt;/TR&gt;<br>
+	      <b>&lt;/TABLE&gt;</b>
+	    </td>
+	    <td width="30%"> Przykład 1:
+          <p>&nbsp;</p>
+	      <table width="100%" cellpadding="2" border="4">
+		<tbody><tr>
+		  <td> kolumna 1</td>
+		  <td> kolumna 2</td>
+		</tr>
+	      </tbody></table>
+          <p>&nbsp;</p><p>
+	      <br>
+	      <br>
+          Przykład 2:
+          <br>
+	      </p><table width="100%" cellspacing="2" cellpadding="2">
+		<tbody><tr>
+		  <td bgcolor="#CCCCCC"> kolumna 1</td>
+		  <td bgcolor="#CCCCCC"> kolumna 2</td>
+		</tr>
+		<tr>
+		  <td> komórka 1</td>
+		  <td> komórka 2</td>
+		</tr>
+	      </tbody></table>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;TD&gt;</td>
+	    <td width="20%"> <b>zawartość komórki w tabeli</b></td>
+	    <td width="40%"> &lt;TABLE BORDER="2" CELLPADDING="2"
+	      CELLSPACING="2" WIDTH="100%"&gt;<br>
+	      &lt;TR&gt;<br>
+          <b>&lt;TD&gt;</b>kolumna 1<b>&lt;/TD&gt;<br>
+	      &lt;TD&gt;</b>kolumna 2<b>&lt;/TD&gt;</b><br>
+	      &lt;/TR&gt;<br>
+	      &lt;/TABLE&gt;</td>
+	    <td width="30%"><br>
+	      <table width="100%" cellspacing="2" cellpadding="2" border="2">
+		<tbody><tr>
+		  <td> kolumna 1</td>
+		  <td> kolumna 2</td>
+		</tr>
+	      </tbody></table>
+	      <p>
+	    </p></td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;TITLE&gt;</td>
+	    <td width="20%"> <b>tytuł dokumentu</b></td>
+	    <td width="40%"> <b>&lt;TITLE&gt;</b>Tytuł dokumentu HTML<b>&lt;/TITLE&gt;</b></td>
+	    <td width="30%"> Ten tytuł wyświetla się na pasku tytułowym przeglądarki.&nbsp;</td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;TR&gt;</td>
+	    <td width="20%"> <b>wiersz tabeli</b></td>
+	    <td width="40%"> &lt;TABLE BORDER="2" CELLPADDING="2"
+	      CELLSPACING="2" WIDTH="100%"&gt;<br>
+	      <b>&lt;TR&gt;</b><br>
+	      &lt;TD&gt;kolumna 1&lt;/TD&gt;<b><br>
+	      </b>&lt;TD&gt;kolumna 2&lt;/TD&gt;<br>
+	      <b>&lt;/TR&gt;</b><br>
+	      &lt;/TABLE&gt;</td>
+	    <td width="30%"><p>
+	      </p><table width="100%" cellspacing="2" cellpadding="2" border="2">
+		<tbody><tr>
+		  <td> kolumna 1</td>
+		  <td> kolumna 2</td>
+		</tr>
+	      </tbody></table>
+	      <p>
+	    </p></td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;U&gt;</td>
+	    <td width="20%"> <b>podkreślenie</b></td>
+	    <td width="40%"> &lt;U&gt;Przykład&lt;/U&gt;</td>
+	    <td width="30%"> <u>Przykład</u></td>
+	  </tr>
+	  <tr>
+	    <td width="10%"> &lt;UL&gt; </td>
+	    <td width="20%"> <b>lista</b></td>
+	    <td width="40%"> 
+	    Lista nieuporządkowana &lt;BR&gt; <br>
+	    Przykład 1:&lt;BR&gt;<br>
+	      &lt;BR&gt;<br>
+	      <b>&lt;UL&gt;</b><br>
+	      &lt;LI&gt;pozycja 1<br>
+	      &lt;LI&gt;pozycja 2<br>
+	      <b>&lt;/UL&gt;</b><br>
+	      &lt;BR&gt;<br>
+          Przykład 2:&lt;BR&gt;<br>
+	      <b>&lt;UL type="disc"&gt;</b><br>
+	      &lt;LI&gt;pozycja 1<br>
+	      &lt;LI&gt;pozycja 2<br>
+	      <b>&lt;UL type="circle"&gt;</b><br>
+	      &lt;LI&gt;pozycja 3<br>
+	      &lt;LI&gt;Lpozycja 4<br>
+	      <b>&lt;/UL&gt;<br>
+	      &lt;/UL&gt;</b></td>
+	    <td width="30%">Lista nieuporządkowana <br> Przykład 1:<br>
+	      <br>
+	      <ul>
+		<li>pozycja 1</li>
+		<li>pozycja 2</li>
+	      </ul>
+	      <p>
+	      <br>
+          Przykład 2:<br>
+	      </p><ul type="disc">
+		<li>pozycja 1</li>
+		<li>pozycja 2</li>
+		  <ul type="circle">
+		    <li>pozycja 3</li>
+		    <li>pozycja 4</li>
+		  </ul>
+	      </ul>
+	    </td>
+	  </tr>
+
+	</tbody>
+</table>
+</body>
+
+</html>
